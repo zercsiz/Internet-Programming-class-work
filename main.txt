@@ -1,0 +1,32 @@
+A notable real-life example of a Broken Object Level Authorization (BOLA) attack occurred on Twitter in 2022. Here's a detailed breakdown of the incident:
+
+Details of the Attack
+Date of Discovery: January 2022 (initial vulnerability identified).
+Date of Exploitation: The issue was exploited before it was patched in 2022 and came to light in July.
+Attackers: Unknown bad actors.
+Target: Twitter's user database.
+How the Attack Took Place: A BOLA vulnerability allowed attackers to use Twitter's system to check if a specific email address or phone number was associated with a Twitter account. By exploiting this flaw, attackers compiled a massive database of user information, linking contact details to Twitter accounts. This information was later offered for sale online.
+Impact on Twitter
+Damage: The exposure posed significant privacy risks to affected users, potentially leading to phishing attacks, scams, or identity theft. Twitter faced reputational damage and criticism over its security measures.
+Scale: Millions of users’ data was reportedly exposed.
+Prevention Measures
+Twitter could have prevented this issue by:
+
+Implementing Stronger Access Controls: Ensuring that all API requests underwent server-side checks to verify authorization.
+Encrypting Data: Avoiding clear transmission of sensitive user identifiers.
+API Design Audits: Regularly testing APIs for vulnerabilities, including unauthorized data exposure.
+Adopting Unique Identifiers: Using unpredictable, unique keys instead of sequential IDs.
+Enhanced Monitoring: Tracking abnormal access patterns and rate-limiting sensitive queries.
+Resolution
+Was the Problem Solved? Yes. Twitter patched the vulnerability after its identification through a bug bounty program. However, the fix came too late to prevent exploitation.
+Steps Taken: The company conducted an internal review, fixed the API logic to enforce proper authorization, and disclosed the incident publicly.
+Lessons and Challenges
+While the vulnerability was resolved, the delay in detection allowed exploitation. This highlights the importance of proactive monitoring, comprehensive API security testing, and swift action to address reported issues. Furthermore, organizations need to maintain vigilance against such threats as API endpoints expand, increasing the attack surface.
+
+This incident underscores how even well-resourced organizations can face significant consequences if they neglect robust access controls and API security​
+PYNT: EFFORTLESS API SECURITY TESTING
+​
+TRACEABLE API SECURITY
+​
+API SECURITY TOOLS
+.
