@@ -30,3 +30,11 @@ TRACEABLE API SECURITY
 ​
 API SECURITY TOOLS
 .
+
+
+
+
+
+https://www.pynt.io/learning-hub/owasp-top-10-guide/broken-object-level-authorization-bola-impact-example-and-prevention
+https://salt.security/blog/api3-2023-broken-object-property-level-authorization
+https://www.traceable.ai/blog-post/decoding-and-defending-against-broken-object-level-authorization-bola
